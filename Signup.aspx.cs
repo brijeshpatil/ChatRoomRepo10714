@@ -87,7 +87,7 @@ namespace ChatRoom
             mail.Body = "<a href='chatroom-5" + "." + "apphb" + ".com" + "/VerifyUser.aspx?UserID=" + PS.SendVerificationMail(PS.EmailID, PS.LocationID) + "'>Click here to verify your account..</a>";
             mail.IsBodyHtml = true;
             SmtpClient client = new SmtpClient();
-            client.Credentials = new System.Net.NetworkCredential("brijesh.patil@tops-int.com", "bj@29886397");
+            client.Credentials = new System.Net.NetworkCredential("brijesh.patil@tops-int.com", "brij@840195");
             client.Port = 587; // Gmail works on this port
             client.Host = "smtp.gmail.com";
             client.EnableSsl = true; //Gmail works on Server Secured Layer
